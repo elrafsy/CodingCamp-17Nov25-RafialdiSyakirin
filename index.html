@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body style="padding: 10px;">
+    <!-- Header Content -->
+    <header></header>
+    <header class="flex justify-between items-center">
+
+        <!-- Logo Icon -->
+
+        <div class="logo-icon"></div>
+
+        <nav class="flex items-center gap-[8px]">
+            <a class="border rounded p-[8px]" href="#home">Home</a>
+            <a class="border rounded p-[8px]" href="#our-profile">Our Profile</a>
+            <a class="border rounded p-[8px]" href="#portfolio">Portfolio</a>
+            <a class="border rounded p-[8px]" href="#message-us">Message Us</a>
+        </nav>
+    </header>
+
+
+
+    <!-- Content Section -->
+    <main></main>
+    <main>
+        <hr>
+        <h1 class="text-3xl font-bold mb-[16px]">Hi, Welcome Back <span id="welcome-speech"></span>!</h1>
+        
+        <p class="mb-[16px]">Ini adalah website pertama saya.</p>
+        <div style="margin-bottom: 500px; margin-top: 100px;">
+
+
+            <hr />
+            <h2 class="text-2xl font-bold mb-[16px]">Our Headquarter</h2>
+            <div class="circle"> </div>
+            <div style="margin-bottom: 100px; margin-top: 50px;">
+                <p style="text-align: center;">Jakarta</p>
+                <div class="circle"> </div>
+                <p style="text-align: center;">Bandung</p>
+                <div class="circle"> </div>
+                <p style="text-align: center;">Surabaya </p>
+    </main>
+
+
+    </div>
+
+    <hr>
+    </div>
+
+    <hr>
+
+    <h2 class="text-2xl font-bold mb-[16px]">Message Us</h2>
+    <div class="grid grid-cols-2 gap-4">
+
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td style="width: 10%;text-align: center;">:</td>
+                        <td><input class="border" style="margin-bottom: 20px;" type="text" id="name-input" placeholder="Masukan Nama Anda"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td style="width: 10%;text-align: center">:</td>
+                        <td><input class="border" style="margin-bottom: 20px;" type="date" id="name-input" placeholder="Masukan Nama Anda"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+            <div style="display: flex; gap: 5%;margin-top: 100px;">
+                <label>Nama Lengkap :</label>
+                <input class="border w-[500px]" type="text" id="name-input" placeholder="Your Name" />
+            </div>
+
+            <div style="display: flex; gap: 5%;">
+                <label>Tanggal Lahir :</label>
+                <input class="border w-[500px]" type="date" id="tanggal-lahir" />
+            </div>
+
+            <div style="display: flex; gap: 5%;">
+                <label>Jenis Kelamin :</label>
+                <label class="flex items-center gap-2 cursor-pointer">
+                    <input class="border p-[8px]" type="radio" id="jenis-kelamin" />
+                    <span> Laki-laki</span>
+                </label>
+                <label class="flex items- center gap-2 cursor-pointer">
+                    <input class="border p-[8px]" type="radio" id="jenis-kelamin" />
+                    <span> Perempuan</span>
+                </label>
+            </div>
+
+
+            <div style="display: flex; gap: 5%;">
+            </div>
+            <textarea class="border p-[8px] mb-[16px] w-full" rows="4" id="message-input"
+                placeholder="Your Message"></textarea>
+            <button id="btn-submit" class="bg-red-500 text-white px-[16px] py-[8px] rounded">Message
+                Now</button>
+        </form>
+
+        <form>
+            <textarea class="border p-[8px] mb-[16px] w-full" rows="4" id="message-input"
+                placeholder="Your Message"></textarea>
+        </form>
+    </div>
+
+    </main>
+
+
+
+
+    </hr>
+
+
+    <!-- Footer Content -->
+    <footer></footer>
+    <footer>
+        <div class="footer-content text-center p-[16px] bg-gray-200">
+            &copy; 2025 MyWebsite. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Javascript External -->
+    <script src="js/script.js"></script>
+</body>
