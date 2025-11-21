@@ -1,0 +1,9 @@
+
+
+.main-header {
+    display: list-item;
+    justify-content: space-between;
+}
+.navbar {
+    gap: 100px;
+}
