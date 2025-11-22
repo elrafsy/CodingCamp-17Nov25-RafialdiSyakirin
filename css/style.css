@@ -1,0 +1,9 @@
+button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+a {
+    cursor: pointer;
+}
